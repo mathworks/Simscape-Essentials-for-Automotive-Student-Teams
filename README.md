@@ -12,10 +12,26 @@ The model simulates the vehicle motion on a terrain. It consists of a Simscape [
 
 ![Simscape model of vehicle chassis and wheels](<Scripts_Data/html/SimscapeEssentialsAuto_Demo_Script_01.png>)
 
+Note: By default, all the models are built using Tire (Simple) block. To replace it with the Tire (Magic Formula) block follow the steps below:
+- Open the "Vehicle" subsystem
+- Open the "Chassis and Tires" subsystem
+- Click the annotation "model with Magic Formula Tires." This will open the "chassisTires_lib" library.
+- Replace the "Chassis and Tires" subsytem with the "Chassis and Tires Magic Formula" subsystem present in the "chassisTires_lib" library.
+
+![Simscape model of vehicle chassis and wheels](<Scripts_Data/html/SimscapeEssentialsAuto_Demo_Gif_01.gif>)
+
 ### electricPowertrain.slx
 The model simulates an electric vehicle model to track a reference drive cycle. It consists of a Simscape [Motor and Drive (System Level)](https://in.mathworks.com/help/sps/ref/motordrivesystemlevel.html) block to represents a generic motor and drive operating in torque-control mode, or equivalently current-control mode. Student teams can use this model to size the motor, battery and other electrical components and can also estimate the battery SOC and SOH.
 
 ![Simscape model of electric powertrain](<Scripts_Data/html/SimscapeEssentialsAuto_Demo_Script_02.png>)
+
+Note: By default, all the models are built using Tire (Simple) block. To replace it with the Tire (Magic Formula) block follow the steps below:
+- Open the "Vehicle" subsystem
+- Open the "Chassis and Tires" subsystem
+- Click the annotation "model with Magic Formula Tires." This will open the "chassisTires_lib" library.
+- Replace the "Chassis and Tires" subsytem with the "Chassis and Tires Magic Formula" subsystem present in the "chassisTires_lib" library.
+
+![Simscape model of vehicle chassis and wheels](<Scripts_Data/html/SimscapeEssentialsAuto_Demo_Gif_02.gif>)
 
 ### motorCooling.slx
 The model simulates a motor cooling system. It consists of [Simscape™ Fluids™](https://in.mathworks.com/products/simscape-fluids.html) Thermal Liquid and Gas blocks to model the cooling circuit. Student teams can utilize this model to size the components of the cooling system. 
