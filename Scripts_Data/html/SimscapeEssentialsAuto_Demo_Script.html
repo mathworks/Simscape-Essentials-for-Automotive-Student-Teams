@@ -1,0 +1,132 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>Simscape Essentials for Automotive Student Teams</title><meta name="generator" content="MATLAB 9.13"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2023-02-24"><meta name="DC.source" content="SimscapeEssentialsAuto_Demo_Script.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; }
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+span.typesection { color:#A0522D }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h1>Simscape Essentials for Automotive Student Teams</h1><!--introduction--><p>The repository introduces a set of models to get the automotive student teams started with physical modeling using Simscape. Referring to these models, students participating in competitions (Formula Student, BAJA, Solar Challenge, etc.) can perform powertrain simulations, develop thermal cooling system, battery cooling system, etc.</p><p>Click on the links below to open the models.</p><div><ol><li>Vehicle Longitudinal Motion: <a href="matlab:open_system('longitudinalMotion');">longitudinalMotion.slx</a></li><li>Electric Powertrain: <a href="matlab:open_system('electricPowertrain');">electricPowertrain.slx</a></li><li>Motor Cooling: <a href="matlab:open_system('motorCooling');">motorCooling.slx</a></li></ol></div><p>Copyright 2023 The MathWorks&#8482;, Inc.</p><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#1">Overview: Vehicle Longitudinal Motion</a></li><li><a href="#2">Overview: Electric Powertrain</a></li><li><a href="#3">Overview: Motor Cooling</a></li></ul></div><h2 id="1">Overview: Vehicle Longitudinal Motion</h2><p>Vehicle Longitudinal Motion: <a href="matlab:open_system('longitudinalMotion');">longitudinalMotion.slx</a></p><p>The model simulates the vehicle motion on a terrain. It consists of a Simscape Vehicle Body block that represents a two-axle vehicle body in longitudinal motion. The model has been used as vehicle body to design to build the powertrain and the cooling system.</p><img vspace="5" hspace="5" src="SimscapeEssentialsAuto_Demo_Script_01.png" alt=""> <h2 id="2">Overview: Electric Powertrain</h2><p>Electric Powertrain: <a href="matlab:open_system('electricPowertrain');">electricPowertrain.slx</a></p><p>The model simulates an electric vehicle model to track a reference drive cycle. It consists of a Simscape Motor and Drive (System Level) block to represents a generic motor and drive operating in torque-control mode, or equivalently current-control mode. Student teams can use this model to size the motor, battery and other electrical components and can also estimate the battery SOC and SOH.</p><img vspace="5" hspace="5" src="SimscapeEssentialsAuto_Demo_Script_02.png" alt=""> <h2 id="3">Overview: Motor Cooling</h2><p>Motor Cooling: <a href="matlab:open_system('motorCooling');">motorCooling.slx</a></p><p>The model simulates a motor cooling system. It consists of Simscape&#8482; Fluids&#8482; Thermal Liquid and Gas blocks to model the cooling circuit. Student teams can utilize this model to size the components of the cooling system.</p><img vspace="5" hspace="5" src="SimscapeEssentialsAuto_Demo_Script_03.png" alt=""> <img vspace="5" hspace="5" src="SimscapeEssentialsAuto_Demo_Script_04.png" alt=""> <p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2022b</a><br></p></div><!--
+##### SOURCE BEGIN #####
+%%  Simscape Essentials for Automotive Student Teams
+%
+% The repository introduces a set of models to get the automotive student teams started with physical modeling using Simscape. Referring to these models, students participating in competitions (Formula Student, BAJA, Solar Challenge, etc.) can perform powertrain simulations, develop thermal cooling system, battery cooling system, etc.
+%
+% Click on the links below to open the models.
+%
+% # Vehicle Longitudinal Motion: <matlab:open_system('longitudinalMotion'); longitudinalMotion.slx>
+% # Electric Powertrain: <matlab:open_system('electricPowertrain'); electricPowertrain.slx>
+% # Motor Cooling: <matlab:open_system('motorCooling'); motorCooling.slx>
+%
+% Copyright 2023 The MathWorks(TM), Inc.
+
+%% Overview: Vehicle Longitudinal Motion
+%
+% Vehicle Longitudinal Motion: <matlab:open_system('longitudinalMotion'); longitudinalMotion.slx>
+%
+% The model simulates the vehicle motion on a terrain. It consists of a
+% Simscape Vehicle Body block that represents a two-axle vehicle body in
+% longitudinal motion. The model has been used as vehicle body to design to
+% build the powertrain and the cooling system.
+%
+open_system('longitudinalMotion');
+open_system('longitudinalMotion/Vehicle/Chassis and Tires')
+set_param(find_system('longitudinalMotion','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+
+%% Overview: Electric Powertrain
+%
+% Electric Powertrain: <matlab:open_system('electricPowertrain'); electricPowertrain.slx>
+%
+% The model simulates an electric vehicle model to track a reference drive
+% cycle. It consists of a Simscape Motor and Drive (System Level) block to
+% represents a generic motor and drive operating in torque-control mode, or
+% equivalently current-control mode. Student teams can use this model to
+% size the motor, battery and other electrical components and can also
+% estimate the battery SOC and SOH.
+%
+
+open_system('electricPowertrain')
+open_system('electricPowertrain/Vehicle/Electric Powertrain')
+
+%% Overview: Motor Cooling
+%
+% Motor Cooling: <matlab:open_system('motorCooling'); motorCooling.slx>
+%
+% The model simulates a motor cooling system. It consists of Simscape™
+% Fluids™ Thermal Liquid and Gas blocks to model the cooling circuit.
+% Student teams can utilize this model to size the components of the
+% cooling system.
+%
+
+open_system('motorCooling')
+
+%%
+open_system('motorCooling/Vehicle/Electric Powertrain/Motor Cooling System')
+
+%%
+bdclose all
+close all
+
+##### SOURCE END #####
+--></body></html>
