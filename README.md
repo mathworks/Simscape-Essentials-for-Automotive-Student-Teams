@@ -1,5 +1,10 @@
 # Simscape Essentials for Automotive Student Teams
-The submission introduces a set of models to get the automotive student teams started with [physical modeling](https://in.mathworks.com/help/simscape/physical-modeling.html) using [Simscape™](https://in.mathworks.com/products/simscape.html). Referring to these models, students participating in competitions (Formula Student, BAJA competitions, Solar Challenge, etc.) can perform powertrain simulations, develop thermal cooling system, battery cooling system, etc.
+The submission introduces a set of models and supported video tutorials to get the automotive student teams started with [physical modeling](https://in.mathworks.com/help/simscape/physical-modeling.html) using [Simscape™](https://in.mathworks.com/products/simscape.html). Here is the link to the tutorial video series - [Simscape Essentials for Automotive Student Teams](https://www.youtube.com/playlist?list=PLn8PRpmsu08pYJYnUtYk_siS5e7HnU4uu) .Referring to these models, students participating in competitions (Formula Student, BAJA competitions, Solar Challenge, etc.) can perform powertrain simulations, develop thermal cooling systems, battery cooling systems, etc.
+
+The tutorial video series will help you get started with the fundamentals of vehicle development for student competitions like Formula Student using Simscape™. 
+1. Longitudinal Vehicle Motion: https://youtu.be/FurgUbg_0zQ?si=uv-iPPJfcw1fOlvd
+2. Electric Powertrain: https://youtu.be/GtxbWL_Z2Bc?si=YQjtTGli4VI9DZQQ
+3. Motor Cooling System: https://youtu.be/pFKwL9Y5D6I?si=AQCCSlua1TcNIwxd 
 
 ![Simscape model of electric vehicle](<Scripts_Data/html/SimscapeEssentialsAuto_Demo_Script_03.png>)
 
