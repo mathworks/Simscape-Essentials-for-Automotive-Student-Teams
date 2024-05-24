@@ -1,5 +1,5 @@
 # Simscape Essentials for Automotive Student Teams
-The submission introduces a set of models and supported video tutorials to get the automotive student teams started with [physical modeling](https://in.mathworks.com/help/simscape/physical-modeling.html) using [Simscape™](https://in.mathworks.com/products/simscape.html). Here is the link to the tutorial video series - [Simscape Essentials for Automotive Student Teams](https://www.youtube.com/playlist?list=PLn8PRpmsu08pYJYnUtYk_siS5e7HnU4uu) .Referring to these models, students participating in competitions (Formula Student, BAJA competitions, Solar Challenge, etc.) can perform powertrain simulations, develop thermal cooling systems, battery cooling systems, etc.
+The submission introduces a set of models and supported video tutorials to get the automotive student teams started with [physical modeling](https://in.mathworks.com/help/simscape/physical-modeling.html) using [Simscape™](https://in.mathworks.com/products/simscape.html). Here is the link to the tutorial video series - [Simscape Essentials for Automotive Student Teams](https://www.youtube.com/playlist?list=PLn8PRpmsu08pYJYnUtYk_siS5e7HnU4uu). Referring to these models, students participating in competitions (Formula Student, BAJA competitions, Solar Challenge, etc.) can perform powertrain simulations, develop thermal cooling systems, battery cooling systems, etc.
 
 The tutorial video series will help you get started with the fundamentals of vehicle development for student competitions like Formula Student using Simscape™. 
 1. Longitudinal Vehicle Motion: https://youtu.be/FurgUbg_0zQ?si=uv-iPPJfcw1fOlvd
@@ -7,6 +7,11 @@ The tutorial video series will help you get started with the fundamentals of veh
 3. Motor Cooling System: https://youtu.be/pFKwL9Y5D6I?si=AQCCSlua1TcNIwxd 
 
 ![Simscape model of electric vehicle](<Scripts_Data/html/SimscapeEssentialsAuto_Demo_Script_03.png>)
+
+View on MATLAB Online: [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=mathworks/Simscape-Essentials-for-Automotive-Student-Teams)
+
+View on File Exchange: [![View Aircraft Performance Analyzer (APA) Live Task on File Exchange](
+https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://in.mathworks.com/matlabcentral/fileexchange/125445-simscape-essentials-for-automotive-student-teams)
 
 ## Note
 Please note that the models in this submission are built using real physical components present in [Simscape](https://in.mathworks.com/products/simscape.html). However, if users want a complete vehicle framework that they can parameterize with their own data please check out the following products: [Powertrain Blockset™](https://www.mathworks.com/products/powertrain.html) and [Vehicle Dynamics Blockset™](https://in.mathworks.com/products/vehicle-dynamics.html). 
