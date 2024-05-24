@@ -8,7 +8,7 @@ The tutorial video series will help you get started with the fundamentals of veh
 
 ![Simscape model of electric vehicle](<Scripts_Data/html/SimscapeEssentialsAuto_Demo_Script_03.png>)
 
-View on MATLAB Online: [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=mathworks/Simscape-Essentials-for-Automotive-Student-Teams)
+View on MATLAB Online: [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=mathworks/Simscape-Essentials-for-Automotive-Student-Teams&file=https://github.com/mathworks/Simscape-Essentials-for-Automotive-Student-Teams/blob/main/startup_SimscapeEssentialsAuto.m)
 
 View on File Exchange: [![View Aircraft Performance Analyzer (APA) Live Task on File Exchange](
 https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://in.mathworks.com/matlabcentral/fileexchange/125445-simscape-essentials-for-automotive-student-teams)
